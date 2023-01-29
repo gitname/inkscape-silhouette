@@ -2,6 +2,14 @@
 
 [![Run Python tests](https://github.com/fablabnbg/inkscape-silhouette/actions/workflows/run-tests.yml/badge.svg)](https://github.com/fablabnbg/inkscape-silhouette/actions/workflows/run-tests.yml)
 
+---
+
+## A note about this repository
+
+This repository is identical to [the main one (as of its commit #0eb2b9d5)](https://github.com/fablabnbg/inkscape-silhouette/commit/0eb2b9d5b7be0482bcac4b8b89e72d7b1e20ff0e), except that this repository includes preliminary support for Silhouette Curio. That support was implemented by GitHub user [**@wvengen**](https://github.com/fablabnbg/inkscape-silhouette/issues/36#issuecomment-977983398), who happened to base it off of an older version of the code in the main repository. Thanks to GitHub user [**@CarlosGS**](https://github.com/fablabnbg/inkscape-silhouette/issues/36#issuecomment-1364570401) for migrating those changes to work with the code in the latest version of the main repository. As of the time of this writing, this preliminary Silhouette Curio support has not been merged into the main repository yet.
+
+---
+
 An extension to drive a Silhoutte Cameo and similar plotter devices from within inkscape.
 100% pure python, ontop of the libusb backend.
 
@@ -20,7 +28,7 @@ This extension should work with the following devices:
 * Silhouette Cameo 4
 * Silhouette Cameo 4 Plus
 * Silhouette Cameo 4 Pro
-* Silhouette Curio (partial success confirmed in #36)
+* Silhouette Curio ([not fully tested](https://github.com/fablabnbg/inkscape-silhouette/issues/36#issuecomment-977983398))
 * Craft Robo CC200-20
 * Craft Robo CC300-20
 * Silhouette SD 1
